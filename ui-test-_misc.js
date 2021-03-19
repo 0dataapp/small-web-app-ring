@@ -1,4 +1,4 @@
-const kDefaultRoute = require('./controller.js').OLSKControllerRoutes().shift();
+const kDefaultRoute = require('./ui-behaviour.js').OLSKControllerRoutes().APRVitrineRoute;
 
 describe('APRVitrine_Misc', function () {
 	

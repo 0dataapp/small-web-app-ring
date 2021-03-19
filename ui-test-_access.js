@@ -1,8 +1,8 @@
-const kDefaultRoute = require('./controller.js').OLSKControllerRoutes().shift();
+const kDefaultRoute = require('./ui-behaviour.js').OLSKControllerRoutes().APRVitrineRoute;
 
 Object.entries({
 	APRVitrine: '.APRVitrine',
-	
+
 	APRVitrineInfoLink: '.APRVitrineInfoLink',
 }).map(function (e) {
 	return global[e.shift()]  = e.pop();
