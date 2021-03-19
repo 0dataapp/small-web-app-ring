@@ -20,6 +20,10 @@ describe('APRVitrine_Misc', function () {
 		browser.assert.attribute('meta[name="viewport"]', 'content', 'width=device-width');
 	});
 
+	it('sets og:image', function () {
+		browser.assert.attribute('meta[property="og:image"]', 'content', 'https://rosano.s3.amazonaws.com/public/swar/touch.png');
+	});
+
 	it('sets title', function() {
 		browser.assert.text('title', 'Appring');
 	});
