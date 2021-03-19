@@ -1,4 +1,6 @@
-const kDefaultRoute = require('./ui-behaviour.js').OLSKControllerRoutes().APRVitrineRoute;
+const mod = require('./ui-behaviour.js');
+
+const kDefaultRoute = mod.OLSKControllerRoutes().APRVitrineRoute;
 
 describe('APRVitrine_Misc', function () {
 	
@@ -20,6 +22,18 @@ describe('APRVitrine_Misc', function () {
 
 	it('sets title', function() {
 		browser.assert.text('title', 'Appring');
+	});
+
+	describe('APRVitrineRandomLink', function test_APRVitrineRandomLink () {
+		
+		it('sets text', function () {
+			browser.assert.text(APRVitrineRandomLink, 'Random');
+		});
+		
+		it('sets href', function () {
+			browser.assert.attribute(APRVitrineRandomLink, 'href', '#' + mod.APRVitrineRandomAnchor());
+		});
+
 	});
 
 	describe('APRVitrineInfoLink', function test_APRVitrineInfoLink () {

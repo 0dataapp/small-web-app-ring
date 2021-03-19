@@ -12,6 +12,10 @@ const mod = {
 		};
 	},
 
+	APRVitrineRandomAnchor () {
+		return 'random';
+	},
+
 };
 
 module.exports = mod;
