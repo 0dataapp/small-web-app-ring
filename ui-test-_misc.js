@@ -39,7 +39,7 @@ describe('APRVitrine_Misc', function () {
 	describe('APRVitrineInfoLink', function test_APRVitrineInfoLink () {
 		
 		it('sets text', function () {
-			browser.assert.text(APRVitrineInfoLink, 'Information');
+			browser.assert.text(APRVitrineInfoLink, 'More info');
 		});
 		
 		it('sets href', function () {
