@@ -47,5 +47,25 @@ describe('APRVitrine_Misc', function () {
 		});
 
 	});
+
+	context('APRRandomRoute', function () {
+
+		before(function() {
+			return browser.OLSKVisit(mod.OLSKControllerRoutes().APRRandomRoute);
+		});
+
+		describe('APRRandomDirectoryLink', function test_APRRandomDirectoryLink () {
+			
+			it('sets text', function () {
+				browser.assert.text(APRRandomDirectoryLink, 'Directory');
+			});
+			
+			it('sets href', function () {
+				browser.assert.attribute(APRRandomDirectoryLink, 'href', '#');
+			});
+
+		});
+	
+	});
 	
 });

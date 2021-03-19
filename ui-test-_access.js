@@ -12,7 +12,7 @@ Object.entries({
 
 	APRRandom: '.APRRandom',
 
-	
+	APRRandomDirectoryLink: '.APRRandomDirectoryLink',
 }).map(function (e) {
 	return global[e.shift()]  = e.pop();
 });
@@ -59,6 +59,10 @@ describe('APRVitrine_Access', function () {
 
 		it('shows APRRandom', function () {
 			browser.assert.elements(APRRandom, 1);
+		});
+
+		it('shows APRRandomDirectoryLink', function () {
+			browser.assert.elements(APRRandomDirectoryLink, 1);
 		});
 	
 	});
