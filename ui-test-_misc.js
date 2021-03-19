@@ -54,6 +54,14 @@ describe('APRVitrine_Misc', function () {
 			return browser.OLSKVisit(mod.OLSKControllerRoutes().APRRandomRoute);
 		});
 
+		describe('APRRandomRedirecting', function test_APRRandomRedirecting () {
+			
+			it('sets text', function () {
+				browser.assert.text(APRRandomRedirecting, 'Redirecting to');
+			});
+
+		});
+
 		describe('APRRandomDirectoryLink', function test_APRRandomDirectoryLink () {
 			
 			it('sets text', function () {
