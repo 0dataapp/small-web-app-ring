@@ -3,6 +3,8 @@ const kDefaultRoute = require('./ui-behaviour.js').OLSKControllerRoutes().APRVit
 Object.entries({
 	APRVitrine: '.APRVitrine',
 
+	APRVitrineBlurb: '.APRVitrineBlurb',
+
 	APRVitrineRandomLink: '.APRVitrineRandomLink',
 	APRVitrineInfoLink: '.APRVitrineInfoLink',
 }).map(function (e) {
@@ -17,6 +19,10 @@ describe('APRVitrine_Access', function () {
 
 	it('shows APRVitrine', function() {
 		browser.assert.elements(APRVitrine, 1);
+	});
+
+	it('shows APRVitrineBlurb', function () {
+		browser.assert.elements(APRVitrineBlurb, 1);
 	});
 
 	it('shows APRVitrineRandomLink', function () {
