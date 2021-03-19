@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "test": "olsk-spec"
+  },
+  "devDependencies": {
+    "OLSKSpec": "olsk/OLSKSpec"
+  }
+}
