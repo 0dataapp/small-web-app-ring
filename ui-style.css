@@ -1,0 +1,46 @@
+:root {
+	font-family: sans-serif;
+	font-size: 10pt;
+
+	--APRTextColor: #555;
+	--APRLinkColor: black;
+	--APRPadding: 10px;
+}
+
+body {
+	padding: 0;
+	
+	margin: 0;
+
+	background: #f4f4f4;
+}
+
+a {
+	color: var(--APRLinkColor);
+}
+
+body div {
+	padding: var(--APRPadding);
+	border-radius: 2px;
+
+	margin: var(--APRPadding);
+
+	background: #ddd;
+	color: var(--APRTextColor);
+}
+
+hr {
+	border: 1px solid white;
+}
+
+.APRVitrineList {
+	padding-left: calc(var(--APRPadding) * 3);
+}
+
+.APRRandomTargetName {
+	font-weight: bold;
+}
+
+.APRRandomTargetBlurb {
+	margin: 0;
+}
