@@ -13,6 +13,7 @@ Object.entries({
 	APRRandom: '.APRRandom',
 
 	APRRandomRedirecting: '.APRRandomRedirecting',
+	APRRandomTargetName: '.APRRandomTargetName',
 
 	APRRandomDirectoryLink: '.APRRandomDirectoryLink',
 }).map(function (e) {
@@ -69,6 +70,10 @@ describe('APRVitrine_Access', function () {
 
 		it('shows APRRandomRedirecting', function () {
 			browser.assert.elements(APRRandomRedirecting, 1);
+		});
+
+		it('shows APRRandomTargetName', function () {
+			browser.assert.elements(APRRandomTargetName, 1);
 		});
 	
 	});

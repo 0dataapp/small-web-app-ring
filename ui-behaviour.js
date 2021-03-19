@@ -1,3 +1,8 @@
+const uRandomElement = function () {
+	const array = [].concat(...arguments);
+	return array[Date.now() % array.length];
+};
+
 const mod = {
 
 	OLSKControllerRoutes () {
@@ -23,10 +28,22 @@ const mod = {
 		return 'random';
 	},
 
+	// DATA
+
+	DataProjects () {
+		return Array.from(mod._APRVitrine.querySelectorAll('li a')).map(function (e) {
+			return {
+				APRProjectName: e.innerHTML,
+				APRProjectURL: e.getAttribute('href'),
+				APRProjectBlurb: e.getAttribute('title'),
+			};
+		});
+	},
+
 	// MESSAGE
 
 	WindowHashDidChange () {
-		mod.SetupVisibility();
+		mod.SetupRandom();
 	},
 
 	// SETUP
@@ -42,11 +59,19 @@ const mod = {
 		mod._APRRandom = document.querySelector('.APRRandom');
 	},
 
-	SetupVisibility () {
+	SetupRandom () {
 		const isRandom = window.location.hash.replace(/^#+/, '').trim() === mod.APRVitrineRandomAnchor();
 
 		document.body.removeChild(isRandom ? mod._APRVitrine : mod._APRRandom);
 		document.body.appendChild(isRandom ? mod._APRRandom : mod._APRVitrine);
+
+		if (!isRandom) {
+			return;
+		}
+
+		const item = uRandomElement(mod.DataProjects());
+
+		document.querySelector('.APRRandomTargetName').innerText = item.APRProjectName;
 	},
 
 	SetupWindowHashChange() {
