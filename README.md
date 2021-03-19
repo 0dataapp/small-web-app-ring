@@ -4,7 +4,7 @@
 
 _A webring for web apps_
 
-This app ring is to support personal projects by independant developers by sharing traffic between them. It is not necessary for the app to be [0data](https://0data.app) or a [Progressive web app](https://en.wikipedia.org/wiki/Progressive_web_application), but these would be ideal. The app must be functional without signing into an account. To add your project to the ring, submit an [edit](https://github.com/0dataapp/lap/edit/master/index.html) to this repository.
+This app ring is to support personal projects by independant developers by sharing traffic between them. It is not necessary for the app to be [0data](https://0data.app) or a [Progressive web app](https://en.wikipedia.org/wiki/Progressive_web_application), but these would be ideal. The app must be functional without signing into an account.
 
 Inspired by [XXIIVV/webring](https://github.com/XXIIVV/webring) and [indiewebring](https://indieweb.org/indiewebring).
 
@@ -12,7 +12,7 @@ Inspired by [XXIIVV/webring](https://github.com/XXIIVV/webring) and [indiewebrin
 
 1. Add a link to your app homepage or inside the app itself (see below for examples that you can copy and modify).
 2. Add your app URL to the [index.html](https://github.com/0dataapp/lap/edit/master/index.html)
-3. Submit a Pull Request with the location of the appring link on your site.
+3. Edit [this file](https://github.com/0dataapp/lap/edit/master/index.html) and submit a Pull Request with the location of the appring link on your site.
 
 ### Link via text
 
