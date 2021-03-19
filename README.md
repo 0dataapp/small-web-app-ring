@@ -11,8 +11,8 @@ Inspired by [XXIIVV/webring](https://github.com/XXIIVV/webring) and [indiewebrin
 ## Join the ring
 
 1. Add a link to your app homepage or inside the app itself (see below for examples that you can copy and modify).
-2. Add your app URL to the [index.html](https://github.com/0dataapp/lap/edit/master/index.html)
-3. Edit [this file](https://github.com/0dataapp/lap/edit/master/index.html) and submit a Pull Request with the location of the appring link on your site.
+2. Add your app URL to [index.html](https://github.com/0dataapp/lap/edit/master/index.html)
+3. Submit a Pull Request with the location of the appring link in your project.
 
 ### Link via text
 
