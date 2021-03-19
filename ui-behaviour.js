@@ -72,6 +72,7 @@ const mod = {
 		const item = uRandomElement(mod.DataProjects());
 
 		document.querySelector('.APRRandomTargetName').innerText = item.APRProjectName;
+		document.querySelector('.APRRandomTargetBlurb').innerText = item.APRProjectBlurb;
 	},
 
 	SetupWindowHashChange() {

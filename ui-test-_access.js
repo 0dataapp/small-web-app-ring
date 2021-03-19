@@ -14,6 +14,7 @@ Object.entries({
 
 	APRRandomRedirecting: '.APRRandomRedirecting',
 	APRRandomTargetName: '.APRRandomTargetName',
+	APRRandomTargetBlurb: '.APRRandomTargetBlurb',
 
 	APRRandomDirectoryLink: '.APRRandomDirectoryLink',
 }).map(function (e) {
@@ -74,6 +75,10 @@ describe('APRVitrine_Access', function () {
 
 		it('shows APRRandomTargetName', function () {
 			browser.assert.elements(APRRandomTargetName, 1);
+		});
+
+		it('shows APRRandomTargetBlurb', function () {
+			browser.assert.elements(APRRandomTargetBlurb, 1);
 		});
 	
 	});
