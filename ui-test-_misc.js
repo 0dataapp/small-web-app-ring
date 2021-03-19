@@ -21,5 +21,17 @@ describe('APRVitrine_Misc', function () {
 	it('sets title', function() {
 		browser.assert.text('title', 'Appring');
 	});
+
+	describe('APRVitrineInfoLink', function test_APRVitrineInfoLink () {
+		
+		it('sets text', function () {
+			browser.assert.text(APRVitrineInfoLink, 'Information');
+		});
+		
+		it('sets href', function () {
+			browser.assert.attribute(APRVitrineInfoLink, 'href', 'https://github.com/0dataapp/small-web-app-ring');
+		});
+
+	});
 	
 });
