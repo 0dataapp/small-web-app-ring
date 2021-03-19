@@ -28,6 +28,10 @@ const mod = {
 		return 'random';
 	},
 
+	APRVitrineRefreshSeconds () {
+		return 3;
+	},
+
 	// DATA
 
 	DataProjects () {
@@ -73,6 +77,7 @@ const mod = {
 
 		document.querySelector('.APRRandomTargetName').innerText = item.APRProjectName;
 		document.querySelector('.APRRandomTargetBlurb').innerText = item.APRProjectBlurb;
+		document.querySelector('meta[http-equiv="refresh"]').setAttribute('content', `${ mod.APRVitrineRefreshSeconds() }; url=${ item.APRProjectURL }`);
 	},
 
 	SetupWindowHashChange() {

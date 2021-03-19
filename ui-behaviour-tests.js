@@ -9,3 +9,11 @@ describe('APRVitrineRandomAnchor', function test_APRVitrineRandomAnchor() {
 	});
 
 });
+
+describe('APRVitrineRefreshSeconds', function test_APRVitrineRefreshSeconds() {
+
+	it('returns string', function () {
+		deepEqual(mod.APRVitrineRefreshSeconds(), 3);
+	});
+
+});

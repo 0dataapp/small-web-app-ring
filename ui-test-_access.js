@@ -15,6 +15,7 @@ Object.entries({
 	APRRandomRedirecting: '.APRRandomRedirecting',
 	APRRandomTargetName: '.APRRandomTargetName',
 	APRRandomTargetBlurb: '.APRRandomTargetBlurb',
+	APRRandomRefresh: 'meta[http-equiv="refresh"]',
 
 	APRRandomDirectoryLink: '.APRRandomDirectoryLink',
 }).map(function (e) {
@@ -79,6 +80,10 @@ describe('APRVitrine_Access', function () {
 
 		it('shows APRRandomTargetBlurb', function () {
 			browser.assert.elements(APRRandomTargetBlurb, 1);
+		});
+
+		it('shows APRRandomRefresh', function () {
+			browser.assert.elements(APRRandomRefresh, 1);
 		});
 	
 	});
