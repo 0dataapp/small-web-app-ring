@@ -75,6 +75,7 @@ const mod = {
 
 		const item = uRandomElement(mod.DataProjects());
 
+		document.querySelector('.APRRandomTargetDomain').innerText = (new URL(item.APRProjectURL)).hostname;
 		document.querySelector('.APRRandomTargetName').innerText = item.APRProjectName;
 		document.querySelector('.APRRandomTargetBlurb').innerText = item.APRProjectBlurb;
 		document.querySelector('meta[http-equiv="refresh"]').setAttribute('content', `${ mod.APRVitrineRefreshSeconds() }; url=${ item.APRProjectURL }`);
