@@ -30,6 +30,11 @@ body div {
 	margin: var(--APRPadding);
 
 	background: #ddd;
+
+	background-image: url(identity.svg);
+	background-size: 42px;
+	background-repeat: no-repeat;
+	background-position: bottom 10px right 10px;
 }
 
 hr {
