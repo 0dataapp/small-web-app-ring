@@ -21,6 +21,10 @@ describe('APRVitrine_Misc', function () {
 	});
 
 	it('sets og:image', function () {
+		browser.assert.attribute('link[rel="apple-touch-icon"]', 'href', 'https://rosano.s3.amazonaws.com/public/swar/touch.png');
+	});
+
+	it('sets og:image', function () {
 		browser.assert.attribute('meta[property="og:image"]', 'content', 'https://rosano.s3.amazonaws.com/public/swar/touch.png');
 	});
 
