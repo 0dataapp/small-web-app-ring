@@ -22,7 +22,11 @@ a {
 	color: var(--APRLinkColor);
 }
 
-body div {
+hr {
+	border: 1px solid white;
+}
+
+.APRBox {
 	flex-grow: 1;
 	padding: var(--APRPadding);
 	border-radius: 2px;
@@ -35,10 +39,6 @@ body div {
 	background-size: 42px;
 	background-repeat: no-repeat;
 	background-position: bottom 10px right 10px;
-}
-
-hr {
-	border: 1px solid white;
 }
 
 .APRVitrineList {
