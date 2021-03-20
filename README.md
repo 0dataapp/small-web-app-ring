@@ -4,7 +4,7 @@
 
 _A webring for web apps_
 
-This appring is to support personal projects by independant developers by sharing traffic between them. It is not necessary for the app to be [0data](https://0data.app) or a [Progressive web app](https://en.wikipedia.org/wiki/Progressive_web_application), but these would be ideal. The app must be functional without signing into an account.
+This <a href="https://ring.0data.app">appring</a> is to support personal projects by independant developers by sharing traffic between them. It is not necessary for the app to be [0data](https://0data.app) or a [Progressive web app](https://en.wikipedia.org/wiki/Progressive_web_application), but these would be ideal. The app must be functional without signing into an account.
 
 Inspired by [XXIIVV/webring](https://github.com/XXIIVV/webring) and [indiewebring](https://indieweb.org/indiewebring).
 
