@@ -38,6 +38,10 @@ describe('APRVitrine_Misc', function () {
 			browser.assert.attribute(APRVitrineRandomLink, 'href', '#' + mod.APRVitrineRandomAnchor());
 		});
 
+		it('classes APRNoScriptHide', function () {
+			browser.assert.hasClass(APRVitrineRandomLink, 'APRNoScriptHide');
+		});
+
 	});
 
 	describe('APRVitrineInfoLink', function test_APRVitrineInfoLink () {
@@ -56,6 +60,14 @@ describe('APRVitrine_Misc', function () {
 
 		before(function() {
 			return browser.OLSKVisit(mod.OLSKControllerRoutes().APRRandomRoute);
+		});
+
+		describe('APRRandom', function test_APRRandom () {
+			
+			it('classes APRNoScriptHide', function () {
+				browser.assert.hasClass(APRRandom, 'APRNoScriptHide');
+			});
+
 		});
 
 		describe('APRRandomRedirecting', function test_APRRandomRedirecting () {
