@@ -34,10 +34,6 @@ You can use 'appring' for shorter text.
 <a href="https://ring.0data.app/#random" target="_blank"><img src="https://ring.0data.app/identity.svg" width="24" align="left" hspace="4" role="presentation" /> Part of the Small Web App Ring</a>
 ```
 
-## License
-
-The code is released under a [Hippocratic License](https://firstdonoharm.dev), modified to exclude its use for surveillance capitalism and also to require large for-profit entities to purchase a paid license.
-
 ## Questions
 
 Feel free to reach out on [Mastodon](https://merveilles.town/@rosano) or [Twitter](https://twitter.com/rosano).
