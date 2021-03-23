@@ -17,21 +17,19 @@ Inspired by [XXIIVV/webring](https://github.com/XXIIVV/webring) and [indiewebrin
 ### Link via text
 
 ```html
-<a href="https://ring.0data.app/#random" target="_blank">Part of the Small Web App Ring</a>
+<a href="https://ring.0data.app/#random" target="_blank">Part of the Appring</a>
 ```
-
-You can use 'appring' for shorter text.
 
 ### Link via image
 
 ```html
-<a href="https://ring.0data.app/#random" target="_blank" title="Part of the Small Web App Ring"><img src="https://ring.0data.app/identity.svg" width="24" /></a>
+<a href="https://ring.0data.app/#random" target="_blank" title="Part of the Appring"><img src="https://ring.0data.app/identity.svg" width="24" /></a>
 ```
 
 ### Link via image and text
 
 ```html
-<a href="https://ring.0data.app/#random" target="_blank"><img src="https://ring.0data.app/identity.svg" width="24" align="left" hspace="4" role="presentation" /> Part of the Small Web App Ring</a>
+<a href="https://ring.0data.app/#random" target="_blank"><img src="https://ring.0data.app/identity.svg" width="24" align="left" hspace="4" role="presentation" /> Part of the Appring</a>
 ```
 
 ## Questions
