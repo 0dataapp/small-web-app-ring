@@ -67,10 +67,6 @@ describe('APRVitrine_Access', function () {
 			browser.assert.elements(APRRandom, 1);
 		});
 
-		it('shows APRRandomDirectoryLink', function () {
-			browser.assert.elements(APRRandomDirectoryLink, 1);
-		});
-
 		it('shows APRRandomRedirecting', function () {
 			browser.assert.elements(APRRandomRedirecting, 1);
 		});
@@ -89,6 +85,10 @@ describe('APRVitrine_Access', function () {
 
 		it('shows APRRandomRefresh', function () {
 			browser.assert.elements(APRRandomRefresh, 1);
+		});
+
+		it('shows APRRandomDirectoryLink', function () {
+			browser.assert.elements(APRRandomDirectoryLink, 1);
 		});
 	
 	});
