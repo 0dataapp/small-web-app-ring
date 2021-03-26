@@ -74,6 +74,22 @@ describe('APRVitrine_Misc', function () {
 
 		});
 
+		describe('APRRandomTitle', function test_APRRandomTitle () {
+			
+			it('sets text', function () {
+				browser.assert.text(APRRandomTitle, 'Small Web App Ring');
+			});
+
+		});
+
+		describe('APRRandomBlurb', function test_APRRandomBlurb () {
+			
+			it('sets text', function () {
+				browser.assert.text(APRRandomBlurb, 'A webring for web apps');
+			});
+
+		});
+
 		describe('APRRandomRedirecting', function test_APRRandomRedirecting () {
 			
 			it('sets text', function () {

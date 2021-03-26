@@ -12,6 +12,8 @@ Object.entries({
 
 	APRRandom: '.APRRandom',
 
+	APRRandomTitle: '.APRRandomTitle',
+	APRRandomBlurb: '.APRRandomBlurb',
 	APRRandomRedirecting: '.APRRandomRedirecting',
 	APRRandomTargetDomain: '.APRRandomTargetDomain',
 	APRRandomTargetName: '.APRRandomTargetName',
@@ -65,6 +67,14 @@ describe('APRVitrine_Access', function () {
 
 		it('shows APRRandom', function () {
 			browser.assert.elements(APRRandom, 1);
+		});
+
+		it('shows APRRandomTitle', function () {
+			browser.assert.elements(APRRandomTitle, 1);
+		});
+
+		it('shows APRRandomBlurb', function () {
+			browser.assert.elements(APRRandomBlurb, 1);
 		});
 
 		it('shows APRRandomRedirecting', function () {
