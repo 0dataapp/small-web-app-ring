@@ -7,6 +7,8 @@ Object.entries({
 
 	APRVitrineBlurb: '.APRVitrineBlurb',
 
+	APRVitrineJoin: '.APRVitrineJoin',
+
 	APRVitrineRandomLink: '.APRVitrineRandomLink',
 	APRVitrineInfoLink: '.APRVitrineInfoLink',
 
@@ -41,6 +43,10 @@ describe('APRVitrine_Access', function () {
 
 	it('shows APRVitrineBlurb', function () {
 		browser.assert.elements(APRVitrineBlurb, 1);
+	});
+
+	it('shows APRVitrineJoin', function () {
+		browser.assert.elements(APRVitrineJoin, 1);
 	});
 
 	it('shows APRVitrineRandomLink', function () {
