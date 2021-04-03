@@ -7,9 +7,13 @@
 	--APRPadding: 10px;
 }
 
+html {
+	height: 100%;
+}
+
 body {
 	display: flex;
-	height: 100vh;
+	height: 100%;
 	padding: 0;
 	
 	margin: 0;
