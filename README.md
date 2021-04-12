@@ -8,7 +8,7 @@ This <a href="https://ring.0data.app">appring</a> is to support independent deve
 
 Inspired by [XXIIVV/webring](https://github.com/XXIIVV/webring) and [indiewebring](https://indieweb.org/indiewebring).
 
-## Join the ring
+## Add yourself to the ring
 
 1. Link to the appring from your app homepage or inside the app itself (see below for example code that you can copy and modify).
 2. Add your project URL to [index.html](https://github.com/0dataapp/lap/edit/master/index.html)
