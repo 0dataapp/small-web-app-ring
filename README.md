@@ -1,4 +1,4 @@
-<a href="https://ring.0data.app"><img alt="Project logo" src="https://rosano.s3.amazonaws.com/public/swar/identity.svg" width="64" /></a>
+<a href="https://ring.0data.app"><img alt="Project logo" src="https://static.rosano.ca/swar/identity.svg" width="64" /></a>
 
 # Small Web App Ring
 
