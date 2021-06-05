@@ -1,6 +1,6 @@
 <a href="https://ring.0data.app"><img alt="Project logo" src="https://static.rosano.ca/swar/identity.svg" width="64" /></a>
 
-# Small Web App Ring
+# Doorless App Ring
 
 _A webring for web apps_
 
