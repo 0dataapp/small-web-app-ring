@@ -8,7 +8,7 @@ This <a href="https://ring.0data.app">appring</a> supports projects that are fun
 
 Inspired by [XXIIVV/webring](https://github.com/XXIIVV/webring) and [indiewebring](https://indieweb.org/indiewebring).
 
-## Add your project(s) to the ring {#join-the-ring}
+## Add your project(s) to the ring
 
 1. Link to the appring from your project's homepage or inside the app itself (see below for example code that you can copy and modify).
 2. Add your project URL to [index.html](https://github.com/0dataapp/lap/edit/master/index.html)
