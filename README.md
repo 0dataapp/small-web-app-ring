@@ -4,13 +4,13 @@
 
 _A webring for web apps_
 
-This <a href="https://ring.0data.app">appring</a> is to support independent developers by sharing traffic between personal projects. It is not necessary for the app to be [0data](https://0data.app) or a [Progressive web app](https://en.wikipedia.org/wiki/Progressive_web_application), but these would be ideal. The app must be functional without signing into an account.
+This <a href="https://ring.0data.app">appring</a> supports projects that are functional without signing into an account. It is not necessary for it to be [0data](https://0data.app) or a [Progressive web app](https://en.wikipedia.org/wiki/Progressive_web_application), but these would be ideal. Doorless is another way of saying 'someone can show up and start using it immediately'.
 
 Inspired by [XXIIVV/webring](https://github.com/XXIIVV/webring) and [indiewebring](https://indieweb.org/indiewebring).
 
-## Add yourself to the ring
+## Add your project(s) to the ring {#join-the-ring}
 
-1. Link to the appring from your app homepage or inside the app itself (see below for example code that you can copy and modify).
+1. Link to the appring from your project's homepage or inside the app itself (see below for example code that you can copy and modify).
 2. Add your project URL to [index.html](https://github.com/0dataapp/lap/edit/master/index.html)
 3. Submit a Pull Request with the location of the appring link in your project.
 
