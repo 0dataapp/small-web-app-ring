@@ -32,6 +32,10 @@ Inspired by [XXIIVV/webring](https://github.com/XXIIVV/webring) and [indiewebrin
 <a href="https://ring.0data.app/#random" target="_blank"><img src="https://ring.0data.app/identity.svg" width="24" align="left" hspace="4" role="presentation" /> Part of the Appring</a>
 ```
 
+## ❤️
+
+If you’re enjoying this, consider [contributing to my Open Collective](https://opencollective.com/rosano/contribute). Virtually everything I create is public, accessible for free, and open-source. Your support helps me keep adding to the commons and making it available for everyone.
+
 ## Questions
 
 Feel free to reach out on [Mastodon](https://merveilles.town/@rosano) or [Twitter](https://twitter.com/rosano).
