@@ -34,7 +34,7 @@ Inspired by [XXIIVV/webring](https://github.com/XXIIVV/webring) and [indiewebrin
 
 ## ❤️
 
-If you’re enjoying this, consider [contributing to my Open Collective](https://opencollective.com/rosano/contribute). Virtually everything I create is public, accessible for free, and open-source. Your support helps me keep adding to the commons and making it available for everyone.
+If you’re enjoying this, consider [contributing to my Open Collective](https://opencollective.com/rosano). Virtually everything I create is public, accessible for free, and open-source. Your support helps me keep adding to the commons and making it available for everyone.
 
 ## Questions
 
