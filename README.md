@@ -4,7 +4,7 @@
 
 _A webring for web apps_
 
-This [appring](https://ring.0data.app) supports projects that are functional without signing into an account. It is not necessary for it to be [0data](https://0data.app) or a [Progressive web app](https://en.wikipedia.org/wiki/Progressive_web_application), but these would be ideal. Doorless is another way of saying 'someone can show up and start using it immediately'.
+This <a href="https://ring.0data.app">appring</a> supports [doorless](https://rosano.hmm.garden/01evv3hq1ak4b6ng1jzppx5n2j) projects that are functional without signing into an account. It is not necessary for it to be [0data](https://0data.app) or a [Progressive web app](https://en.wikipedia.org/wiki/Progressive_web_application), but these would be ideal. Doorless is another way of saying 'someone can show up and start using it immediately'.
 
 Inspired by [XXIIVV/webring](https://github.com/XXIIVV/webring) and [indiewebring](https://indieweb.org/indiewebring).
 
