@@ -40,4 +40,4 @@ Help me keep creating projects that are public, accessible for free, and open-so
 
 ## Questions
 
-Feel free to reach out on [Mastodon](https://merveilles.town/@rosano) or [Twitter](https://twitter.com/rosano).
+Feel free to reach out on [Mastodon](https://mastodon.online/@rosano) or [Twitter](https://twitter.com/rosano).
