@@ -34,31 +34,31 @@ describe('APRVitrine_Access', function () {
 	});
 
 	it('shows APRVitrine', function() {
-		browser.assert.elements(APRVitrine, 1);
+		return browser.assert.elements(APRVitrine, 1);
 	});
 
 	it('shows APRVitrineList', function () {
-		browser.assert.elements(APRVitrineList, 1);
+		return browser.assert.elements(APRVitrineList, 1);
 	});
 
 	it('shows APRVitrineBlurb', function () {
-		browser.assert.elements(APRVitrineBlurb, 1);
+		return browser.assert.elements(APRVitrineBlurb, 1);
 	});
 
 	it('shows APRVitrineJoin', function () {
-		browser.assert.elements(APRVitrineJoin, 1);
+		return browser.assert.elements(APRVitrineJoin, 1);
 	});
 
 	it('shows APRVitrineRandomLink', function () {
-		browser.assert.elements(APRVitrineRandomLink, 1);
+		return browser.assert.elements(APRVitrineRandomLink, 1);
 	});
 
 	it('shows APRVitrineInfoLink', function () {
-		browser.assert.elements(APRVitrineInfoLink, 1);
+		return browser.assert.elements(APRVitrineInfoLink, 1);
 	});
 
 	it('hides APRRandom', function () {
-		browser.assert.elements(APRRandom, 0);
+		return browser.assert.elements(APRRandom, 0);
 	});
 
 	context('APRRandomRoute', function () {
@@ -68,43 +68,43 @@ describe('APRVitrine_Access', function () {
 		});
 
 		it('hides APRVitrine', function() {
-			browser.assert.elements(APRVitrine, 0);
+			return browser.assert.elements(APRVitrine, 0);
 		});
 
 		it('shows APRRandom', function () {
-			browser.assert.elements(APRRandom, 1);
+			return browser.assert.elements(APRRandom, 1);
 		});
 
 		it('shows APRRandomTitle', function () {
-			browser.assert.elements(APRRandomTitle, 1);
+			return browser.assert.elements(APRRandomTitle, 1);
 		});
 
 		it('shows APRRandomBlurb', function () {
-			browser.assert.elements(APRRandomBlurb, 1);
+			return browser.assert.elements(APRRandomBlurb, 1);
 		});
 
 		it('shows APRRandomRedirecting', function () {
-			browser.assert.elements(APRRandomRedirecting, 1);
+			return browser.assert.elements(APRRandomRedirecting, 1);
 		});
 
 		it('shows APRRandomTargetDomain', function () {
-			browser.assert.elements(APRRandomTargetDomain, 1);
+			return browser.assert.elements(APRRandomTargetDomain, 1);
 		});
 
 		it('shows APRRandomTargetName', function () {
-			browser.assert.elements(APRRandomTargetName, 1);
+			return browser.assert.elements(APRRandomTargetName, 1);
 		});
 
 		it('shows APRRandomTargetBlurb', function () {
-			browser.assert.elements(APRRandomTargetBlurb, 1);
+			return browser.assert.elements(APRRandomTargetBlurb, 1);
 		});
 
 		it('shows APRRandomRefresh', function () {
-			browser.assert.elements(APRRandomRefresh, 1);
+			return browser.assert.elements(APRRandomRefresh, 1);
 		});
 
 		it('shows APRRandomDirectoryLink', function () {
-			browser.assert.elements(APRRandomDirectoryLink, 1);
+			return browser.assert.elements(APRRandomDirectoryLink, 1);
 		});
 	
 	});

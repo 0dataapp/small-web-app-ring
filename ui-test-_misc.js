@@ -9,41 +9,41 @@ describe('APRVitrine_Misc', function () {
 	});
 
 	it('sets lang', function() {
-		browser.assert.attribute('html', 'lang', 'en');
+		return browser.assert.attribute('html', 'lang', 'en');
 	});
 
 	it('sets encoding', function () {
-		browser.assert.attribute('meta[http-equiv="Content-Type"]', 'content', 'text/html; charset=utf-8');
+		return browser.assert.attribute('meta[http-equiv="Content-Type"]', 'content', 'text/html; charset=utf-8');
 	});
 
 	it('sets width', function () {
-		browser.assert.attribute('meta[name="viewport"]', 'content', 'width=device-width');
+		return browser.assert.attribute('meta[name="viewport"]', 'content', 'width=device-width');
 	});
 
 	it('sets og:image', function () {
-		browser.assert.attribute('link[rel="apple-touch-icon"]', 'href', 'https://static.rosano.ca/swar/touch.png');
+		return browser.assert.attribute('link[rel="apple-touch-icon"]', 'href', 'https://static.rosano.ca/swar/touch.png');
 	});
 
 	it('sets og:image', function () {
-		browser.assert.attribute('meta[property="og:image"]', 'content', 'https://static.rosano.ca/swar/touch.png');
+		return browser.assert.attribute('meta[property="og:image"]', 'content', 'https://static.rosano.ca/swar/touch.png');
 	});
 
 	it('sets title', function() {
-		browser.assert.text('title', 'Appring');
+		return browser.assert.text('title', 'Doorless App Ring');
 	});
 
 	describe('APRVitrineRandomLink', function test_APRVitrineRandomLink () {
 		
 		it('sets text', function () {
-			browser.assert.text(APRVitrineRandomLink, 'Random');
+			return browser.assert.text(APRVitrineRandomLink, 'Random');
 		});
 		
 		it('sets href', function () {
-			browser.assert.attribute(APRVitrineRandomLink, 'href', '#' + mod.APRVitrineRandomAnchor());
+			return browser.assert.attribute(APRVitrineRandomLink, 'href', '#' + mod.APRVitrineRandomAnchor());
 		});
 
 		it('classes APRNoScriptHide', function () {
-			browser.assert.hasClass(APRVitrineRandomLink, 'APRNoScriptHide');
+			return browser.assert.hasClass(APRVitrineRandomLink, 'APRNoScriptHide');
 		});
 
 	});
@@ -51,11 +51,11 @@ describe('APRVitrine_Misc', function () {
 	describe('APRVitrineInfoLink', function test_APRVitrineInfoLink () {
 		
 		it('sets text', function () {
-			browser.assert.text(APRVitrineInfoLink, 'More info');
+			return browser.assert.text(APRVitrineInfoLink, 'More info');
 		});
 		
 		it('sets href', function () {
-			browser.assert.attribute(APRVitrineInfoLink, 'href', 'https://github.com/0dataapp/small-web-app-ring');
+			return browser.assert.attribute(APRVitrineInfoLink, 'href', 'https://github.com/0dataapp/small-web-app-ring');
 		});
 
 	});
@@ -69,7 +69,7 @@ describe('APRVitrine_Misc', function () {
 		describe('APRRandom', function test_APRRandom () {
 			
 			it('classes APRNoScriptHide', function () {
-				browser.assert.hasClass(APRRandom, 'APRNoScriptHide');
+				return browser.assert.hasClass(APRRandom, 'APRNoScriptHide');
 			});
 
 		});
@@ -77,7 +77,7 @@ describe('APRVitrine_Misc', function () {
 		describe('APRRandomTitle', function test_APRRandomTitle () {
 			
 			it('sets text', function () {
-				browser.assert.text(APRRandomTitle, 'Doorless App Ring');
+				return browser.assert.text(APRRandomTitle, 'Doorless App Ring');
 			});
 
 		});
@@ -85,7 +85,7 @@ describe('APRVitrine_Misc', function () {
 		describe('APRRandomBlurb', function test_APRRandomBlurb () {
 			
 			it('sets text', function () {
-				browser.assert.text(APRRandomBlurb, 'A webring for web apps');
+				return browser.assert.text(APRRandomBlurb, 'A webring for web apps');
 			});
 
 		});
@@ -93,7 +93,7 @@ describe('APRVitrine_Misc', function () {
 		describe('APRRandomRedirecting', function test_APRRandomRedirecting () {
 			
 			it('sets text', function () {
-				browser.assert.text(APRRandomRedirecting, 'Redirecting to');
+				return browser.assert.text(APRRandomRedirecting, 'Redirecting to');
 			});
 
 		});
@@ -101,11 +101,11 @@ describe('APRVitrine_Misc', function () {
 		describe('APRRandomDirectoryLink', function test_APRRandomDirectoryLink () {
 			
 			it('sets text', function () {
-				browser.assert.text(APRRandomDirectoryLink, 'Directory');
+				return browser.assert.text(APRRandomDirectoryLink, 'Directory');
 			});
 			
 			it('sets href', function () {
-				browser.assert.attribute(APRRandomDirectoryLink, 'href', '#');
+				return browser.assert.attribute(APRRandomDirectoryLink, 'href', '#');
 			});
 
 		});
